@@ -65,9 +65,10 @@ public class BitonicSort {
 
   public static void main(String args[]) {
     int a[] = {3, 7, 4, 8, 6, 2, 1, 5};
-    int up = 1;
+   final int UP = 1;
+   final int DOWN = 0;
     BitonicSort ob = new BitonicSort();
-    ob.sort(a, a.length, up);
+    ob.sort(a, a.length, DOWN);
     System.out.println("\nSorted array");
     printArray(a);
   }
